@@ -1,0 +1,33 @@
+nav{
+    background-color: #18929dd0;
+    /*permite manipular os elementos de forma dinâmica*/
+    /*torna o layout flexivel*/
+    display: flex;
+    align-items: center;
+    /*Criar espaçamento entre os intens*/
+    justify-content: space-between;
+}
+nav ul{
+    /*tornar o layout flexivel*/
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 80px;
+}
+nav li{
+    margin-left: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav .logo a{
+    text-decoration:none;
+    color: white;
+    padding: 80px;
+    font-size: 60px;
+}
+#body{
+    background-image: lol.png;
+}
